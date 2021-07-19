@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+body {
+    @media only screen and (min-width: 800px) and (max-width: 1000px) {
+        zoom: 0.8;
+    }
+    background-color: $very-dark-blue;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
+.component-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (min-width: 800px) {
+        min-height: 100vh;
+    }
+}
+
+.attribution {
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 12px;
+    text-align: center;
+    a {
+        color: $soft-violet;
+    }
+}
