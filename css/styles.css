@@ -48,11 +48,22 @@ body {
   color: #aa5cdb;
 }
 
+@keyframes moveInBottom {
+  0% {
+    transform: translateY(5rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
 .card {
   margin: 3rem;
   display: flex;
   border-radius: 10px;
   background-color: #1b1938;
+  animation: moveInBottom 1s;
 }
 @media only screen and (min-width: 800px) {
   .card__section {

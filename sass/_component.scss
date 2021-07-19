@@ -3,6 +3,7 @@
     display: flex;
     border-radius: 10px;
     background-color: $dark-desat-blue;
+    animation: moveInBottom 1s;
 
     &__section {
         @media only screen and (min-width: 800px) {
